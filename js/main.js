@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
             msgText.innerHTML = "";
 
             try {
-                const response = await fetch("http://3.91.53.162/api-gpt-php/endpoints/chat.php", {
+                const response = await fetch("http://44.198.166.166/api-gpt-php/endpoints/chat.php", {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
